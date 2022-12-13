@@ -14,4 +14,4 @@
 
 ### :imp:Bug:imp:
 
-#### If you press the button as soon as the character sits on the chair, the panel will not close.<br>If you do this in the editor you will get an error
+#### If you press the button as soon as the character sits on the chair, the panel will not close.<br>If you do this in the editor you will get an error.(null reference exception)
