@@ -13,3 +13,5 @@
 #### <li>I wrote a simple vector code for gestures,I didn't want to use DoTween because it is case.<br>It would be a waste of time to write my own Tween function</li>
 
 ### -Bug-
+
+#### If you press the button as soon as the character sits on the chair, the panel will not close.
