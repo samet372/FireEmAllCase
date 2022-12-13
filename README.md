@@ -7,5 +7,5 @@
 
 #### It took me 6 days to develop the project,during this time i got a lot of bugs and 
 #### i fixed them all.
-#### In the game I created the character with OBJECT POOLİNG in case more is 
-#### needed in the future.
+#### I created a character with OBJECT POOLING in case there are more in the game,
+#### may be necessary in the future.
