@@ -10,3 +10,4 @@
 #### <li>I wanted to use multiple manager to increase readability,<br>in this way, I both prevented different errors that may occur and saved time.</li>
 #### <li>I supplied the animations that are not in the package from mixamo.</li>
 #### <li>I created the particle effects myself, I did not use ready</li>
+#### <li>I wrote a simple vector code for gestures,I didn't want to use DoTween because it is case.<br>It would be a waste of time to write my own tween function</li>
