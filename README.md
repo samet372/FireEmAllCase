@@ -12,4 +12,4 @@
 #### <li>I created the particle effects myself, I did not use ready</li>
 #### <li>I wrote a simple vector code for gestures,I didn't want to use DoTween because it is case.<br>It would be a waste of time to write my own Tween function</li>
 
-### Bug
+### -Bug-
