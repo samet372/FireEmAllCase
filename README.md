@@ -7,3 +7,5 @@
 
 #### It took me 6 days to develop the project,during this time i got a lot of bugs and 
 #### i fixed them all.
+#### In the game I created the character with object pooling in case more is 
+#### needed in the future.
