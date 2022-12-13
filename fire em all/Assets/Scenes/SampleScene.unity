@@ -18215,7 +18215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelManager: {fileID: 5876925553814089553}
-  PlayerSpawner: {fileID: 520857821}
+  camAnimation: {fileID: 520857821}
   poolManager: {fileID: 1118371454}
   _starFallVfx: {fileID: 391651863}
   _moneyVfxConfetti: {fileID: 29496097}
