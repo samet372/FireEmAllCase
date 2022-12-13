@@ -9,3 +9,5 @@
 #### i fixed them all.
 #### I created a character with OBJECT POOLING in case there are more in the game,
 #### may be necessary in the future.
+#### I wanted to use multiple manager to increase readability,
+#### in this way, I both prevented different errors that may occur and saved time.
