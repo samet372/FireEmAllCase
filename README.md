@@ -3,6 +3,6 @@
 ### Hi, I'm Fatih Samed.:wave:
         
 ## Fire'Em All Project
-###:fire: <a href="https://drive.google.com/file/d/1B1XDMIRP_4MG1FALksdgMRc3shMba7vM/view?usp=sharing" target="_blank">Game Play Video</a>:fire:
+### :fire:<a href="https://drive.google.com/file/d/1B1XDMIRP_4MG1FALksdgMRc3shMba7vM/view?usp=sharing" target="_blank">Game Play Video</a>:fire:
 
 #### 
