@@ -5,8 +5,7 @@
 ## Fire'Em All Project
 ### :fire:<a href="https://drive.google.com/file/d/1B1XDMIRP_4MG1FALksdgMRc3shMba7vM/view?usp=sharing" target="_blank">Game Play Video</a>:fire:
 
-#### <li>It took me 6 days to develop the project,during this time i got a lot of bugs and 
-#### i fixed them all.</li>
+#### <li>It took me 6 days to develop the project,during this time i got a lot of bugs and <br> i fixed them all.</li>
 #### I created a character with OBJECT POOLING in case there are more in the game,
 #### may be necessary in the future.
 #### I wanted to use multiple manager to increase readability,
