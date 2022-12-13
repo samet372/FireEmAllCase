@@ -11,7 +11,7 @@ public class PlayerPooling : MonoBehaviour
 
     [SerializeField] int _poolSize;
 
-    private void Awake()
+    private void Awake()  //basic object pooling system
     {
         pooledPlayers = new Queue<GameObject>();
 

@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator animator;
 
     [SerializeField] Transform _targetPoint;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -16,10 +17,10 @@ public class PlayerController : MonoBehaviour
     {
         PlayerMove();
     }
-
+   
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("AnimationStopper"))
+        if (other.gameObject.CompareTag("AnimationStopper")) //controls the sitting of the character
         {
             if (gameObject.CompareTag("Girl"))
             {
@@ -35,7 +36,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    void PlayerMove()
+    void PlayerMove() // simple movement
     {
         gameObject.transform.position = Vector3.Lerp(transform.position, _targetPoint.position, Time.deltaTime);
     }

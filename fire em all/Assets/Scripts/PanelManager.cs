@@ -20,7 +20,7 @@ public class PanelManager : MonoBehaviour
         _contactMen = false;
         _contactGirl = false;
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) ////////////return the touching character
     {
         if (other.gameObject.CompareTag("Girl"))
         {
@@ -33,7 +33,7 @@ public class PanelManager : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other) //return the output character
     {
         if (other.gameObject.CompareTag("Girl"))
         {
@@ -44,24 +44,24 @@ public class PanelManager : MonoBehaviour
         {
             _contactMen = false;
         }
-    }
+    }                                           
     private void Update()
     {
         StartCoroutine(nameof(WaitPanel));      
     }
     
    
-    public void HirePanel()
+    public void HirePanel()  //to control from outside
     {
         _hirePanel.SetActive(false);
     }
 
-    public void FirePanel()
+    public void FirePanel()  //to control from outside
     {
         _firePanel.SetActive(false);
     }
 
-    IEnumerator WaitPanel()
+    IEnumerator WaitPanel()  // time control
     {
         if (_contactGirl == true)
         {

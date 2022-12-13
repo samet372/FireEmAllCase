@@ -10,7 +10,7 @@ public class PoolManager : MonoBehaviour
 
     private void Start()
     {
-        PlayerSpawner();
+        PlayerSpawner();  //get pooling
     }
 
     public void PlayerSpawner()
